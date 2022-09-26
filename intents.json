@@ -1,0 +1,106 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":["hello","hii","hey","wake up","jarvis"
+            ],
+            "responses":["Hello Sir","How Are You Sir.","Always For You Sir",
+                "Hello","Here's Your Assistant."
+            ]
+        },
+        {
+            "tag":"bye",
+            "patterns":["bye","goodbye","see you later","sleep","exit","go to sleep"
+            ],
+            "responses":["Bye.","I am Going.","Bye Sir.","Good Bye",
+                "It'll be Nice To Meet You Again.","See You Later"
+            ]
+        },
+        {
+            "tag":"health",
+            "patterns":["how are you","how you","are you fine?","are you good"
+            ],
+            "responses":["Fine.","Perfect.","Cool.",
+                "Like You.","Are you Fine? I'm Fine."
+            ]
+        },
+        {
+            "tag":"identity",
+            "patterns":["your name","what is your name","who are you","what are you"
+            ],
+            "responses":["Jarvis","I Am Jarvis.","An A.I Assistant.",
+                "My Name is Jarvis.","Great Assistant"
+            ]
+        },
+        {
+            "tag":"time",
+            "patterns":["what is time","time","samay","what's the time"
+            ],
+            "responses":["time"
+            ]
+        },
+        {
+            "tag":"date",
+            "patterns":["what is date","date","tareek","what's the date"
+            ],
+            "responses":["date"
+            ]
+        },
+        {
+            "tag":"day",
+            "patterns":["what is day","day","din","what's the day","today"
+            ],
+            "responses":["day"
+            ]
+        },
+        {
+            "tag":"wikipedia",
+            "patterns":["who is","about","what is","wikipedia","tell me somthing"
+            ],
+            "responses":["wikipedia"
+            ]
+        },
+        {
+            "tag":"google",
+            "patterns":["google search","google","search"
+            ],
+            "responses":["google"
+            ]
+        },
+        {
+            "tag":"youtube",
+            "patterns":["youtube search","show me video of","search on youtube","play video on","paly sond in youtube"
+            ],
+            "responses":["youtube"
+            ]
+        },
+        {
+            "tag":"location",
+            "patterns":["what is my location","where i am","my location","i am in which state"
+            ],
+            "responses":["location"
+            ]
+        },
+        {
+            "tag":"networktest",
+            "patterns":["check my network","what the speed of my network","speed test"
+            ],
+            "responses":["networktest"
+            ]
+        },
+        {
+            "tag":"onlight",
+            "patterns":["turn on light","light's on","on the bulb","bring up light"
+            ],
+            "responses":["onlight"
+            ]
+        },
+        {
+            "tag":"offlight",
+            "patterns":["turn off light","light's off","off the bulb","bring down light"
+            ],
+            "responses":["offlight"
+            ]
+        }
+    ]
+}
